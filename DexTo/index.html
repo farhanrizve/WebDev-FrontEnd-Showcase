@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="a html & css based website" />
+    <meta name="keywords" content="html, css, tech" />
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="img/project-management.ico"
+      type="image/x-icon"
+    />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css" />
+    <title>DexTo | Inspiring your work</title>
+  </head>
+  <body>
+    <!-- site container -->
+    <div class="container flex-column">
+      <!-- header section -->
+      <header class="header-section flex-column">
+        <!-- header top section (contact details) -->
+        <section class="header-top flex-row-centered">
+          <!-- contact edtails -->
+          <div class="contact-details flex-row-centered">
+            <a href="mailto:example@domain.com" class="flex-row-centered">
+              <img src="img/gmail.png" alt="gmail" />
+              <span>example@domain.com</span>
+            </a>
+            <a href="tel:+5550151574520" class="flex-row-centered">
+              <img src="img/phone.png" alt="phone" />
+              <span>+555 015 157 4520</span>
+            </a>
+          </div>
+          <!-- social links -->
+          <div class="social-links">
+            <ul class="flex-row-centered">
+              <li>
+                <a href="#"><img src="img/facebook.png" alt="facebook" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/twitter.png" alt="twitter" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/instagram.png" alt="instragram" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/pinterest.png" alt="pinterest" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="img/behance.png" alt="behance" /></a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!-- header bottom section (site info & navbar) -->
+        <section class="header-bottom flex-row-centered">
+          <div class="site-info">
+            <h2 class="site-title">
+              <span>dex</span>
+              <span>to</span>
+            </h2>
+            <p class="tagline">Inspiring your work</p>
+          </div>
+          <nav class="navbar">
+            <ul class="flex-row-centered">
+              <li><a href="" style="pointer-events: none">home</a></li>
+              <li><a href="">about</a></li>
+              <li class="service-menu">
+                <a href="">services</a>
+                <div class="service-dropdown">
+                  <ul class="flex-column">
+                    <li><a href="#sc1">globally availability</a></li>
+                    <li><a href="#sc2">accurate positioning</a></li>
+                    <li><a href="#sc3">fast delivery</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="">blogs</a></li>
+              <li><a href="">offers</a></li>
+            </ul>
+          </nav>
+        </section>
+      </header>
+      <!-- main container -->
+      <main class="m-container flex-column">
+        <!-- website intro section -->
+        <section class="intro-section">
+          <div class="inner-container intro-container flex-row-centered">
+            <!-- left text box -->
+            <div class="left-textbox">
+              <h2>nostrum fuga corporis cumque ipsa</h2>
+              <p>
+                Minima consequatur sint deleniti animi ipsa reprehenderit
+                laboriosam aut fugit eius recusandae perferendis consequuntur.
+              </p>
+              <p>
+                fugiat, officiis facilis consequuntur similique, neque nobis
+                commodi excepturi sequi et libero.
+              </p>
+            </div>
+            <!-- right text box -->
+            <div class="right-textbox">
+              <h2>Est voluptatem dolorem consequatur</h2>
+              <blockquote class="quote-text flex-row">
+                <i class="fas fa-quote-left"></i>
+                <span>
+                  Maxime sequi iusto, perspiciatis, debitis libero quod earum
+                  illum odit officiis necessitatibus molestiae mollitia tempore
+                  asperiores et voluptatibus.
+                  <span class="author">- verfore. cr</span>
+                </span>
+                <i class="fas fa-quote-right"></i>
+              </blockquote>
+            </div>
+          </div>
+        </section>
+        <!-- about section -->
+        <section class="about-section flex-row" id="about-s">
+          <div class="inner-container">
+            <h1 class="about-heading">
+              veritatis consequuntur dolores odit recusandae amet
+            </h1>
+            <blockquote class="flex-column-centered">
+              <img src="img/quote-left.png" alt="quote-left" />
+              <span>
+                Quas voluptatibus aliquid iste doloremque beatae, veniam eveniet
+                ut autem. Quos deleniti, expedita quae porro illo cum doloremque
+                cumque iusto consectetur quidem earum unde maiores iste rem eos
+                eveniet dignissimos.
+              </span>
+              <img src="img/quote-right.png" alt="quote-right" />
+            </blockquote>
+            <div class="about-text">
+              <p>
+                Placeat modi provident at! Expedita, soluta placeat hic
+                perferendis est impedit? Nulla harum impedit fuga reiciendis
+                neque dolorem nesciunt atque. Modi nihil nam sit est debitis
+                exercitationem iure aliquid vitae!Quasi earum tempora dolore
+                illo? Et quo consequuntur minima numquam, dolore laborum.
+              </p>
+              <p>
+                Iusto dignissimos corrupti ipsa omnis fuga quis eligendi error
+                dolor deleniti adipisci aspernatur deserunt, impedit nostrum
+                voluptatibus inventore.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- services section (card design) -->
+        <section class="service-section" id="service-s">
+          <div class="inner-container flex-column-centered">
+            <div class="service-intro">
+              <h2>our services</h2>
+              <p>
+                <i class="fas fa-asterisk"></i>perferendis repudiandae quidem
+                quibusdam et exercitationem dolor labore assumenda ex omnis
+                consectetur perspiciatis quam magnam natus alias laboriosam
+                voluptatum nulla.
+              </p>
+            </div>
+            <div class="flex-row-centered">
+              <div class="service-card flex-column-centered" id="sc1">
+                <img src="img/globe.png" alt="" class="service-icon" />
+                <h3 class="service-heading">globally availability</h3>
+                <div class="service-text">
+                  <p>
+                    Distinctio ab, amet laboriosam temporibus sint a quibusdam
+                    nobis, incidunt deleniti, consectetur illo adipisci odio
+                  </p>
+                  <p>
+                    molestias ullam quidem illum deserunt quasi perferendis
+                    asperiores aperiam.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card flex-column-centered" id="sc2">
+                <img src="img/placeholder.png" alt="" class="service-icon" />
+                <h3 class="service-heading">accurate positioning</h3>
+                <div class="service-text">
+                  <p>
+                    Consequuntur explicabo. Recusandae voluptatibus,
+                    accusantium, optio nihil quo amet animi magni quas ratione
+                    eaque qui. Ipsa, nulla.
+                  </p>
+                  <p>
+                    Ad vero deleniti, mollitia natus doloribus libero explicabo
+                    ratione.
+                  </p>
+                </div>
+              </div>
+              <div class="service-card flex-column-centered" id="sc3">
+                <img src="img/delivery-truck.png" alt="" class="service-icon" />
+                <h3 class="service-heading">fast delivery</h3>
+                <div class="service-text">
+                  <p>
+                    Aliquid, quibusdam provident corporis temporibus, illum,
+                    fuga veniam libero quam veritatis nisi eius! Sapiente eaque
+                    suscipit at.
+                  </p>
+                  <p>
+                    explicabo ratione consequuntur, doloribus quae. epror
+                    consectetur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- blog section (card design) -->
+        <section class="blog-section" id="blog-s">
+          <div class="inner-container flex-column-centered">
+            <div class="blog-intro">
+              <h2>read the amazimg blogs</h2>
+              <p>
+                <i class="fas fa-asterisk"></i>Animi quaerat ratione recusandae
+                accusantium saepe officiis, eius odit pariatur itaque blanditiis
+                illum maxime impedit amet delectus non fugit, consequatur ipsa
+                ut.
+              </p>
+            </div>
+            <div class="flex-row-centered">
+              <div class="blog-card">
+                <img src="img/blog-img1.jpg" alt="" class="blog-img" />
+                <div class="blog-placeholder-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="blog-text">
+                  <div class="inner-blog flex-column-centered">
+                    <h3 class="blog-heading">Voluptatum repellendus minus</h3>
+                    <p class="blog-description">
+                      <span>
+                        Voluptates ad incidunt nemo iusto eligendi cupiditate
+                        ipsam debitis ex recusandae accusantium, sunt deserunt!
+                        Sapiente aliquid dolorum unde doloremque delectus
+                        repudiandae.
+                      </span>
+                      <span>
+                        cupiditate consectetur mollitia. Alias animi nesciunt
+                        commodi.
+                      </span>
+                    </p>
+                    <a href="#" class="blog-link"
+                      ><i class="fas fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-card">
+                <img src="img/blog-img2.jpg" alt="" class="blog-img" />
+                <div class="blog-placeholder-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="blog-text">
+                  <div class="inner-blog flex-column-centered">
+                    <h3 class="blog-heading">Aliquam dolore dicta minus</h3>
+                    <p class="blog-description">
+                      <span>
+                        Ipsa deserunt velit tempore totam a, non provident,
+                        praesentium explicabo quibusdam accusamus beatae ut
+                        atque facilis molestias commodi minus unde harum dolore
+                        illo.
+                      </span>
+                      <span>
+                        Quaerat laborum eius praesentium nostrum autem molestias
+                        minima quasi ullam.
+                      </span>
+                    </p>
+                    <a href="#" class="blog-link"
+                      ><i class="fas fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="blog-card">
+                <img src="img/blog-img3.jpg" alt="" class="blog-img" />
+                <div class="blog-placeholder-icon">
+                  <i class="fas fa-search-plus"></i>
+                </div>
+                <div class="blog-text">
+                  <div class="inner-blog flex-column-centered">
+                    <h3 class="blog-heading">deserunt obcaecati corporis</h3>
+                    <p class="blog-description">
+                      <span>
+                        Similique facere hic magni eveniet, temporibus alias
+                        ipsum earum quaerat consequuntur pariatur. Reiciendis,
+                        nulla. Perspiciatis sequi officiis accusamus fuga
+                        consequuntur voluptates.
+                      </span>
+                      <span>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                        vitae quae.
+                      </span>
+                    </p>
+                    <a href="#" class="blog-link"
+                      ><i class="fas fa-link"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- pricing section (card design) -->
+        <section class="price-section flex-row" id="pricing-s">
+          <div class="inner-container flex-column-centered">
+            <div class="price-intro">
+              <h2>Our offers for you</h2>
+              <p>
+                <span>
+                  <i class="fas fa-asterisk"></i>Animi quaerat ratione
+                  recusandae accusantium saepe officiis, eius odit pariatur
+                  itaque blanditiis illum maxime
+                </span>
+                <span>
+                  impedit amet delectus non fugit, consequatur ipsa ut.
+                </span>
+              </p>
+            </div>
+            <div class="flex-row-centered">
+              <div class="price-card">
+                <table>
+                  <thead class="price-card-text">
+                    <tr>
+                      <td class="price-card-name">
+                        <p>intro</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="price-card-pricing">
+                        <span><i class="fas fa-dollar-sign"></i>19</span>
+                        <span>/ month</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="price-card-descrip">
+                        <p>
+                          Perferendis quisquam libero aliquam ut dignissimos
+                          optio pariatur dolore illum.
+                        </p>
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody class="price-card-features">
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>tempore vel impedit saepe</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>porro officia dicta deserunt sed</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>Asperiores excepturi nesciunt</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>Molestias dolorum explicabo</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>consequatur voluptates ea soluta</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td class="price-choose"><a href="">choose plan</a></td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+              <div class="price-card populer-card">
+                <table>
+                  <thead class="price-card-text">
+                    <tr>
+                      <td class="price-card-name">
+                        <p>base</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="price-card-pricing">
+                        <span><i class="fas fa-dollar-sign"></i>29</span>
+                        <span>/ month</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="price-card-descrip">
+                        <p>
+                          Perferendis quisquam libero aliquam ut dignissimos
+                          optio pariatur dolore illum.
+                        </p>
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody class="price-card-features">
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>tempore vel impedit saepe</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>porro officia dicta deserunt sed</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>Asperiores excepturi nesciunt</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>Molestias dolorum explicabo</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>consequatur voluptates ea soluta</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td class="price-choose"><a href="">choose plan</a></td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+              <div class="price-card">
+                <table>
+                  <thead class="price-card-text">
+                    <tr>
+                      <td class="price-card-name">
+                        <p>enterprise</p>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="price-card-pricing">
+                        <span><i class="fas fa-dollar-sign"></i>49</span>
+                        <span>/ month</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="price-card-descrip">
+                        <p>
+                          Perferendis quisquam libero aliquam ut dignissimos
+                          optio pariatur dolore illum.
+                        </p>
+                      </td>
+                    </tr>
+                  </thead>
+                  <tbody class="price-card-features">
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>tempore vel impedit saepe</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>porro officia dicta deserunt sed</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>Asperiores excepturi nesciunt</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>Molestias dolorum explicabo</span>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="pc-feature">
+                        <span><i class="fas fa-check-circle"></i></span>
+                        <span>consequatur voluptates ea soluta</span>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <td class="price-choose"><a href="">choose plan</a></td>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- footer section -->
+      <footer class="footer-section flex-column">
+        <!-- top footer section (subscription & important links) -->
+        <section class="footer-top">
+          <div class="inner-container flex-row">
+            <div class="subscribe">
+              <h3 class="footer-top-heading">subscribe</h3>
+              <form action="" method="post" class="flex-column">
+                <input
+                  type="search"
+                  name="search"
+                  id=""
+                  class="searchbox"
+                  placeholder="subscribe to our newsletter"
+                />
+                <input type="submit" class="search-btn" value="subscribe" />
+              </form>
+            </div>
+            <div class="important-links">
+              <h3 class="footer-top-heading">important links</h3>
+              <ul class="important-list">
+                <li>
+                  <a href="" class="il-name"
+                    ><i class="fas fa-paperclip"></i> privacy policy</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="il-name"
+                    ><i class="fas fa-paperclip"></i> terms & condition</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="il-name"
+                    ><i class="fas fa-paperclip"></i> legal notes</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="il-name"
+                    ><i class="fas fa-paperclip"></i> our offers</a
+                  >
+                </li>
+                <li>
+                  <a href="" class="il-name"
+                    ><i class="fas fa-paperclip"></i> our services</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="partner-link">
+              <h3 class="footer-top-heading">our partners</h3>
+              <ul class="partner-list flex-row">
+                <li>
+                  <a href="" class="partner-image"
+                    ><img src="img/acer.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" class="partner-image"
+                    ><img src="img/amd.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" class="partner-image"
+                    ><img src="img/asus.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" class="partner-image"
+                    ><img src="img/dell.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" class="partner-image"
+                    ><img src="img/nvidia.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="" class="partner-image"
+                    ><img src="img/seagate.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- bottom footer section (copyright & designer info) -->
+        <section class="footer-bottom">
+          <div class="inner-container flex-row">
+            <div class="copyright">
+              <p>copyright &copy; 2021 <span>DexTo.Inc</span></p>
+            </div>
+            <div class="design-develop">
+              <p>design & developed by <a href="https://www.facebook.com/rizve.hasan.hasan/" class="devlink"><span>&rarr;</span> farhan tanvir rizve</a></p>
+            </div>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
